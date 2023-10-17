@@ -81,7 +81,7 @@ export function REPLInput(props: REPLInputProps) {
     }
 
     if (commandString.includes('mode')) {
-      if (commandString.split(' ')[1] == 'verbose') {
+      if (commandString.split(' ')[1] === 'verbose') {
         // indicates that we are not in brief mode
         setBrief(false);
 
@@ -89,7 +89,7 @@ export function REPLInput(props: REPLInputProps) {
         setMode('verbose');
       }
       
-      if (commandString.split(' ')[1] == 'brief') {
+      if (commandString.split(' ')[1] === 'brief') {
         // indicates that we are in brief mode
         setBrief(true);
 
@@ -181,13 +181,13 @@ export function REPLInput(props: REPLInputProps) {
         // iterate through the data (content list)
         for (let i = 1; i < contentList.length; i++) {
           // once a match is found, push the entire row into the list of data
-          if (contentList[i][colIndex] == word) {
+          if (contentList[i][colIndex] === word) {
             searchList.push(contentList[i]);
           }
         }
     
         // if the search length is the same as the start, then nothing was found
-        if(searchLength == searchList.length){
+        if(searchLength === searchList.length){
           // produce error message
           props.setTableHeading([]);
           newTable = [['Value not found.']];

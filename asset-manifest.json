@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mock-cs32-2023/static/css/main.073c9b0a.css",
+    "main.js": "/mock-cs32-2023/static/js/main.f57f837f.js",
+    "static/js/787.abe8006e.chunk.js": "/mock-cs32-2023/static/js/787.abe8006e.chunk.js",
+    "static/media/logo.svg": "/mock-cs32-2023/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/mock-cs32-2023/index.html",
+    "main.073c9b0a.css.map": "/mock-cs32-2023/static/css/main.073c9b0a.css.map",
+    "main.f57f837f.js.map": "/mock-cs32-2023/static/js/main.f57f837f.js.map",
+    "787.abe8006e.chunk.js.map": "/mock-cs32-2023/static/js/787.abe8006e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.f57f837f.js"
+  ]
+}
